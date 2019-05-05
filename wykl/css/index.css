@@ -1,0 +1,129 @@
+.maodian{
+	position: fixed;
+	top: 250px;
+	left: 20px;
+	background: #f03048;
+}
+.maodian li{
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #901d2b;
+}
+.maodian li:hover{
+	background: #b42436;
+}
+.maodian a{
+	color: #fff;
+}
+
+.banner{
+	width: 100%;
+	min-width: 1100px;
+	height: 500px;
+	background: url(../img/MSdOCaxGiN7viROTANha2T1807241705_1920_400.jpg) no-repeat;
+	background-position: center;
+	background-size: auto 500px;
+	animation: change 15s linear infinite;
+}
+@keyframes change{
+	0%{
+		background: url(../img/a1153d02-8303-4d68-8fad-fd92d86f89ddT1901220955_1920_400.jpg) center;
+	}
+	20%,25%{
+		background: url(../img/1948c15c-c9d6-4149-9dd5-a5945ea2c723T1901220956_1920_400.jpg) center;
+	}
+	45%,50%{
+		background: url(../img/5f537356-95c6-44b6-856e-8fc377016800T1812291607_1920_400.jpg) center;
+	}
+	70%,75%{
+		background: url(../img/MSdOCaxGiN7viROTANha2T1807241705_1920_400.jpg) center;
+	}
+	95%,100%{
+		background: url(../img/a1153d02-8303-4d68-8fad-fd92d86f89ddT1901220955_1920_400.jpg) center;
+	}
+}
+.new{
+	width: 1000px;
+	height: 245px;
+	background: #fff;
+	text-align: center;
+	position: fixed;
+}
+.new img{
+	width: 1000px;
+	border-radius: 110px;
+}
+h1{
+	text-align: center;
+	background: #e31436;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	margin: 10px 0;
+}
+.hot1{
+	width: 194px;
+	height: 276px;
+	font-size: 12px;
+	background: #fff url(../img/794f0d5a23ce49d09ec39fa632c547641524795679005jghbz7ju10199.jpg) no-repeat;
+	background-size: 194px;
+	margin-bottom: 10px;
+	border: 1px solid #f0f0f0;
+}
+.hot1:hover{
+	border: 1px solid #e31436;
+	background-size: 210px;
+	transition: 0.3s;
+}
+.hot1 p:nth-child(1){
+	width: 24px;
+	height: 20px;
+	padding: 0 3px;
+	background: #ff8385;
+	color: #fff;
+	line-height: 20px;
+}
+.hot1 p:nth-child(2){
+	height: 15px;
+	width: 95px;
+	padding: 0 2px;
+	border:1px solid #e31436;
+	color: #e31436;
+	border-radius: 3px;
+	line-height: 15px;
+	margin: 155px 0 5px 10px;
+}
+.hot1 p:nth-child(3){
+	color: #000;
+	font-weight: 600;
+	font-size: 14px;
+}
+.hot1 p:nth-child(4){
+	color: #a6a6a6;
+	margin: 5px;
+}
+.hot1 p:nth-child(5){
+	margin-left: 5px;
+	color: #e31436;
+}
+.hot1 p:nth-child(5) b{
+	font-size: 20px;
+}
+.hot1 p:nth-child(5) span{
+	background: #e31436;
+	color: #fff;
+	padding: 3px;
+	margin-left: 65px;
+	border-radius: 5px;
+}
+.hot1 p:nth-child(5) del{
+	color: #a6a6a6;
+}
+.wangyi{
+	width: 1000px;
+}
+
+

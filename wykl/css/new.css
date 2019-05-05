@@ -1,0 +1,235 @@
+body{
+	background: #f6f6f6;
+}
+.banner{
+	min-width: 1100px;
+	height: 480px;
+	background: url(https://haitao.nos.netease.com/1cvkgp0te72_1920_480.jpg?imageView&thumbnail=0x480&quality=90) no-repeat;
+	background-position: center;
+	z-index: 1;
+}
+.banner_top{
+	position: relative;
+	padding: 30px 0 20px;
+}
+.banner_top>p{
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+}
+.banner_top small{
+	position: absolute;
+	top: 38px;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 8px 6px 8px;
+	font-size: 24px;
+	font-weight: 400;
+	border: 1px solid #fff;
+}
+.banner_min span{
+	color: #fff;
+	letter-spacing: 1px;
+}
+.banner_min span::before,.banner_min span::after{
+	content: "";
+	display: inline-block;
+	width: 480px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.banner_min span::before{
+	margin-right: 30px;
+}
+.banner_min span::after{
+	margin-left: 30px;
+}
+
+
+.banner_bot{
+	margin-top: 20px;
+}
+.banner_bot img{
+	width: 400px;
+	height: 300px;
+}
+.bot_right{
+	width: 700px;
+	height: 300px;
+}
+.lego{
+	width: 200px;
+	font-size: 12px;
+	padding-left: 150px;
+	background: #fff url(https://pop.nosdn.127.net/b73a0137-b215-486a-9670-083082064659?imageView&thumbnail=149x0&quality=85) no-repeat;
+	background-size: 150px;
+}
+.lego .discou{
+	height: 15px;
+	width: 40px;
+	padding: 2px 4px;
+	border:1px dashed #e31436;
+	color: #e31436;
+	line-height: 15px;
+	margin: 0px 0 5px 10px;
+}
+.lego .high{
+	color: #000;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.lego .ask{
+	color: #a6a6a6;
+	margin: 5px 0 15px 10px;
+}
+.lego .money{
+	font-size: 14px;
+	height: 42px;
+	line-height: 40px;
+	margin-top: 5px;
+	padding-left: 10px;
+	color: #e31436;
+}
+.lego .money b{
+	font-size: 24px;
+}
+.lego .money del{
+	color: #a6a6a6;
+}
+
+
+
+
+
+
+
+
+
+.hui{
+	margin-bottom: 20px;
+}
+.hui h3{
+	height: 30px;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #333;
+	text-align: center;
+	margin: 40px 0 30px;
+}
+.hui ul{
+
+	display: flex;
+	justify-content: space-between;
+}
+.hui ul li{
+	width: 100px;
+	height: 50px;
+	color: #aaa;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #a6a6a6;
+	cursor: pointer;
+}
+
+.hui p{
+	line-height: 18px;
+	font-size: 12px;
+}
+.hui p b{
+	color: #e72a36;
+}
+.hui .time{
+	color: #000;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.hui ul li:hover p{
+	color: #e72a36;
+}
+.hui .bac{
+	background: #e72a36;
+	color: #fff;
+}
+.hui .bac p{
+	color: #fff;
+}
+.hui .bac :hover,.hui .bac:hover p{
+	color: #fff;
+	cursor: default;
+}
+
+
+.hot1{
+	width: 232px;
+	height: 350px;
+	padding: 15px;
+	font-size: 12px;
+	background: #fff url(https://pop.nosdn.127.net/c7cb3592-2882-44e3-8642-5efae3e5ef06?imageView&thumbnail=262x0&quality=85) no-repeat;
+	background-size: 262px;
+	margin-bottom: 20px;
+}
+.hot1 img{
+	width: 28px;
+}
+.hot1 .discou{
+	height: 15px;
+	width: 95px;
+	padding: 2px 4px;
+	border:1px solid #e31436;
+	color: #e31436;
+	line-height: 15px;
+}
+.hot1 .high{
+	font-weight: 600;
+	margin: 203px 0 5px;
+}
+.hot1 .high a,.hot1 .ask a{
+	color: #000;
+}
+.hot1 .high a:hover,.hot1 .ask a:hover{
+	text-decoration: underline;
+}
+.hot1 .ask{
+	margin: 5px 0;
+}
+.hot1 .money{
+	height: 42px;
+	line-height: 40px;
+	margin-top: 5px;
+	padding-left: 10px;
+	color: #e31436;
+}
+.hot1 .money b{
+	font-size: 20px;
+}
+.hot1 .money img{
+	margin-left: 85px;
+	width: 27px;
+}
+.hot1 .money del{
+	color: #aaa;
+}
+.hot1 .money a{
+	background: #fff;
+	float: right;
+	padding: 0 10px;
+	color: #e31436;
+	border: 1px solid #e31436;
+}
+.hot1 .rush{
+	color: #fff;
+	background: #e31436;
+	text-align: center;
+}
+.hot1 .rush a{
+	color: #fff;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 14px;
+	background: #e31436;
+}

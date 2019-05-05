@@ -1,0 +1,122 @@
+body{
+	background: #f6f6f6;
+}
+.banner{
+	width: 100%;
+	min-width: 1100px;
+	height: 400px;
+	background: url(../img/zOIZJe6me6UxJ2Qg1cgbglbas78_1920_400T1807061443_1920_400.jpg) no-repeat;
+	background-position: center;
+	background-size: auto 400px;
+}
+.imgwrap{
+	height: 316px;
+	background: url(https://haitao.nosdn1.127.net/fcAQiJEeILsXVRT91c1246kvn23_1000_316T1807061448_1000_316.jpg?imageView&thumbnail=1250x395&quality=95&type=webp) no-repeat;
+}
+.item{
+	height: 400px;
+	background: url(https://haitao.nosdn1.127.net/169fa7r9sfMC6iKWiopdy2d730_1000_400T1807061455_1000_400.jpg?imageView&thumbnail=1250x500&quality=95&type=webp) no-repeat;
+}
+h2{
+	height: 60px;
+	/*line-height: 60px;*/
+	font-size: 28px;
+	text-align: center;
+	font-weight: 400;
+	margin: 10px 0;
+}
+.famous{
+	/*background: #f0f0f0;*/
+}
+.famous .lan{
+	width: 193px;
+	height: 276px;
+	background: #fff url(../img/8Axm12qTBH8lFou6imkknuzj3_400_400T1807061652_400_400.jpg) no-repeat;
+	background-size: 193px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.famous .lan img{
+	width: 64px;
+	border: 1px solid #f0f0f0;
+	border-radius: 50%;
+	margin-top: 160px;
+}
+.famous .lan p{
+	font-size: 12px;
+	color: #e31436;
+	font-weight: 400;	
+}
+.famous .lan .lan_p{
+	color: #000;
+	font-weight: 600;
+	margin: 2px 0;
+}
+.hot1{
+	width: 324px;
+	height: 400px;
+	font-size: 12px;
+	background: #fff url(../img/794f0d5a23ce49d09ec39fa632c547641524795679005jghbz7ju10199.jpg) no-repeat;
+	background-size: 324px;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+.hot1:hover{
+	border: 1px solid #e31436;
+}
+.hot1 p:nth-child(1){
+	width: 24px;
+	height: 20px;
+	padding: 0 3px;
+	background: #ff8385;
+	color: #fff;
+	line-height: 20px;
+}
+.hot1 p:nth-child(2){
+	height: 15px;
+	width: 95px;
+	padding: 0 2px;
+	border:1px solid #e31436;
+	color: #e31436;
+	border-radius: 3px;
+	line-height: 15px;
+	margin: 270px 0 5px 10px;
+}
+.hot1 p:nth-child(3){
+	color: #000;
+	font-weight: 600;
+	font-size: 14px;
+}
+.hot1 p:nth-child(4){
+	color: #a6a6a6;
+	margin: 5px;
+}
+.hot1 .money{
+	margin-left: 8px;
+	color: #e31436;
+}
+.hot1 .money b{
+	font-size: 22px;
+}
+.hot1 .money img{
+	margin-left: 210px;
+	width: 27px;
+}
+.hot1 .money del{
+	color: #a6a6a6;
+}
+
+
+.hot2{
+	width: 242px;
+	height: 328px;
+	background-size: 242px;
+
+}
+.hot2 p:nth-child(2){
+	margin: 210px 0 5px 10px;
+	
+}
+.hot2 .money img{
+	margin-left: 50px;
+}

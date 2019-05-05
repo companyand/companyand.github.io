@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"> 
+   <title>登录界面</title>
+   <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/denglujiemian.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script type="text/javascript" src="js/rem.js"></script> -->
+  <!--  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script> -->
+  
+
+  <!--  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+  <div class="wrap">
+    <header>
+    <div class="head">
+      <div class="left">
+      <h2>麻事</h2>
+             <span>互联网软件外包服务平台</span>
+      </div>
+        <div class="right">
+          <span>
+            还没注册账号？
+          </span>
+         <button id="click"> 
+          注册
+        </button>
+        </div>
+    </div>
+  </header>
+
+
+  <div class="container">
+       <div class="yhzc">
+          <h2> 麻事登录</h2>
+       </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <form id="adduser" action="api/adduser.php" class="form">
+                    
+                    <!-- 用户名 -->
+                    <div class="form-group">  
+                        <input name="LoginName"  id="username" class="form-control" type="text" placeholder="用户名:">
+                    </div>
+                    <!-- 输入密码 -->
+                    <div class="form-group">
+                        
+                        <input name="PSD" id="setpassword" class="form-control t-input" type="password" placeholder="输入密码:">
+                    </div>
+                
+                    <div class="zhmm" id="ls">
+                      <p>
+                        <input type="checkbox" name="remember" class="ant-checkbox-input" value="on">
+                      <span>记住密码</span>
+                     </p>
+                      <span>找回密码</span>
+                    </div>
+                     <!-- 确认登入 -->
+                    <div class="form-group">
+                        <a id="loginhref" href="#"><input class="t-btn btnYes form-control button" type="button" placeholder="" value="确认登录"></a> 
+
+                         <div class="mixfirm"></div>
+                         <!-- 定时弹框 -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+      <p>
+      <span class="ms">嘛事</span>
+      <span>Copyright © 2014-2018</span>
+      </p>
+    </footer> 
+  </div>
+   <script type="text/javascript" src="jqure/jquery.js"></script>
+<script type="text/javascript" src="js/jqsession.js"></script>
+<script type="text/javascript" src="js/dljm.js"></script>   
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

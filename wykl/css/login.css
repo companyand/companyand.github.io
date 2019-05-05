@@ -1,0 +1,257 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+input,button{
+	outline: none;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #a6a6a6;
+	outline: none;
+}
+a:hover{
+	color: #e31436;
+}
+body{
+	background: #f8f8f8;
+}
+.center{
+	margin: 0 auto;
+	width: 1000px;
+	height: auto;
+}
+.clear{
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.top{
+	width: 100%;
+	min-width: 1090px;
+	height: 100px;
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+}
+.top a img{
+	height: 65px;
+	margin-top: 20px;
+}
+.main{
+	width: 100%;
+	height: 600px;
+	min-width: 1090px;
+}
+.main .center>a{
+	display: inline-block;
+	margin: 120px 50px;
+}
+.main .center{
+	position: relative;
+}
+
+
+.form{
+	position: absolute;
+	right: 40px;
+	top: 120px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+}
+.form_top{
+	/*border: 1px solid #ddd;*/
+	width: 350px;
+	height: 52px;
+	background: #f8f8f8;
+	line-height: 52px;
+	color: #333;
+	display: flex;
+	text-align: center;
+}
+.form_top .phone,.form_top .email{
+	width: 175px;
+	font-weight: 700;
+}
+.form_top .phone{
+	color: #e31436;
+}
+.form_main{
+	width: 270px;
+	height: 225px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 20px 40px 15px 40px;
+}
+.form_main a{
+	font-size: 12px;
+}
+.form_main>a{
+	width: 96px;
+	height: 14px;
+	padding-left: 17px;
+	line-height: 14px;
+	background: url(https://mm.bst.126.net/images/login/ursicon.png) no-repeat;
+	float: right;
+}
+.form_main a:hover{
+	background-position: 0 -95px;
+}
+.form_main .tel,.form_main .duan{
+	height: 34px;
+	line-height: 30px;
+	border: 1px solid #d5d5d5;
+	border-radius: 2px;
+	margin: 12px 0;
+}
+input,button{
+	border: none;
+}
+.form_main .tel{
+	padding-left: 39px;
+	background: url(../img/20190126190818.png) no-repeat 8px 50%;
+	background-size: 20px;
+}
+.form_main .duan{
+	padding-left: 8px;
+}
+.form_main .duan a{
+	display: block;
+	text-align: center;
+	float: right;
+	height: 34px;
+	width: 96px;
+	background: #eee;
+	border-left: 1px solid #d5d5d5;
+	color: #333;
+	line-height: 34px;
+}
+.form_main .duan a:hover{
+	color: #e31436;
+}
+.form_main button{
+	background: #e13436;
+	height: 36px;
+	color: #fff;
+	line-height: 36px;
+	font-size: 14px;
+	width: 270px;
+	border-radius: 2px;
+	margin-top: 13px;
+	margin-bottom: 7px;
+}
+.form_main .run{
+	height: 16px;
+	line-height: 16px;
+}
+.form_main .run span{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	border: 1px solid #aaa;
+	background: url(../img/sprite_61fbe151ab715649c6b7c4ec39156201.png) no-repeat -330px -92px;
+}
+.form_main .run .rig{
+	float: right;
+}
+.form_main p{
+	font-size: 12px;
+	color: #aaa;
+	padding-top: 15px;
+}
+
+
+.form_bot{
+	width: 270px;
+	height: 20px;
+	padding: 10px 40px;
+	background: #f8f8f8;
+	font-size: 14px;
+}
+.form_bot .bot_a{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: 2px;
+	background: url(../img/icon1.png) no-repeat;
+}
+.form_bot .bot_a1{
+	background-position: -760px -401px;
+}
+.form_bot .bot_a2{
+	background-position: -792px -401px;
+}
+.form_bot .bot_a3{
+	background-position: -824px -401px;
+}
+.form_bot .bot_a4{
+	background-position: -856px -401px;
+}
+.form_bot span{
+	float: right;
+	width: 22px;
+	height: 22px;
+	margin-left: 3px;
+	background: url(../img/icon1.png) no-repeat -899px -402px;
+}
+.form_bot .fr{
+	color: #e31436;
+	line-height: 22px;
+	font-size: 14px;
+}
+.form_bot .fr:hover{
+	text-decoration: underline;
+}
+
+.last{
+	min-width: 1090px;
+	padding:30px 0 80px;
+	background: #fff;
+}
+.last .center{
+	text-align: center;
+	font-size: 12px;
+
+}
+.last .center p{
+	margin: 8px 0;
+	color: #a6a6a6;
+}
+.last p a:hover{
+	text-decoration: underline;
+	color: #a6a6a6;
+}
+.last .last_tu img{
+	height: 30px;
+	margin: 2px 3px;
+}
+.last_p{
+	font-size: 16px;
+}
+.last_p a{
+	color: #666;
+}
+.last_p a::before{
+	content: "|";
+	margin: 0 13px;
+}
+.last_p .about::before{
+	content: "";
+}

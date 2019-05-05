@@ -1,0 +1,247 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+	padding: 0;
+	margin: 0;
+}
+ul,ol,li{
+	list-style: none;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	color: #888;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+
+
+
+header{
+	padding: 8rem 3.5rem 0 3.5rem;
+	background: #0085ff;
+	font-size: 4.5rem;
+	color: #fff;
+}
+header span{
+	display: inline-block;
+	height: 8.8rem;
+	font-weight: 700;
+}
+header i{
+	margin: 0 1.2rem;
+}
+.h-button{
+	padding: 2rem 3.5rem;
+	background: #0085ff;
+}
+.h-button span{
+	display: block;
+	font-size: 4rem;
+	background: #fff;
+	color: #555;
+	text-align: center;
+	padding: 2rem;
+}
+.h-button span i{
+	margin-right: 1rem;
+}
+.item{
+	width: 100%;
+}
+.container{
+	float: left;
+	margin-top: 1.8rem;
+	width: 20%;
+	text-align: center;
+}
+.container img{
+	height: 11.5rem;
+}
+.container span{
+	width: 19.2rem;
+	display: block;
+	text-align: center;
+	font-size: 3.1rem;
+}
+
+
+main{
+	padding: 0 3rem;
+}
+.quality{
+	margin:2rem 0;
+	height: 28rem;
+	width: 100%;
+	background: #efefef;
+	border-radius: 0.5rem;
+}
+.quality h3{
+	font-size: 4rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #000;
+}
+.quality .left{
+	width: 30rem;
+	padding: 2.5rem 0 0 3rem;
+}
+.quality p{
+	font-size: 3.4rem;
+	margin-bottom: 2rem;
+}
+.quality span{
+	font-size: 3.1rem;
+	color: #af8260;
+}
+.quality img{
+	margin-top: 2rem;
+	height: 24rem;
+	float: right;
+}
+.vip{
+	border-radius: 0.5rem;
+	height: 8.7rem;
+	line-height: 8.7rem;
+	overflow: hidden;
+	padding: 0 2.1rem 0 3.2rem;
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	color: #644f1b;
+	background: #f3dda0;
+}
+
+.wrap{
+	position: relative;
+	width: 100%;
+	height: 25rem;
+}
+.wrap ul{
+	width: 500%;
+}
+.wrap li{
+	width: 100%;
+	/*float: left;*/
+}
+.wrap img{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	border-radius: 1rem;
+}
+
+.shoplist-title{
+	text-align: center;
+	font-size: 5rem;
+	height: 9rem;
+	line-height: 9rem;
+	color: #000;
+}
+.shoplist-header{
+	width: 100%;
+	margin-bottom: 2rem;
+	overflow: hidden;
+}
+.shoplist{
+	padding-bottom: 11.5rem;
+}
+.filter{
+	height: 9rem;
+	line-height: 9rem;
+	font-size: 3.7rem;
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+.filter i{
+	margin-left: 1.3rem;
+}
+.shop-info{
+	font-size: 2.8rem;
+	margin: 2.7rem 0;
+	overflow: hidden;
+}
+.shop-info>img{
+	margin-right: 2rem;
+	width: 14rem;
+}
+.shop-main{
+	margin-left: 2rem;
+	color: #333;
+}
+.luochun{
+	overflow: hidden;
+	margin-bottom: 1.15rem;
+}
+.luochun span:nth-child(1){
+	float: left;
+}
+.luochun .title{
+	font-weight: 700;
+	font-size: 4rem;
+}
+.shop-main .luochun i{
+	color: #fdd11a;
+}
+.luochun .right2{
+	display: inline-block;
+	float: right;
+	background: #0085ff;
+	color: #fff;
+}
+.chuan span{
+	display: inline-block;
+	border: 1px solid #888;
+	padding: .3rem;
+}
+.active{
+	color: #333;
+	padding-left: 16vw;
+}
+.luochun .low{
+	display: inline-block;
+	background: rgb(240,115,115);
+	color: #fff;
+	padding: 0 .5rem;
+	border-radius: .2rem;
+	margin-right: 1.5rem;
+}
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #888;
+}
+footer a{
+	display: block;
+	width: 25%;
+	height: 12rem;
+	float: left;
+	text-align: center;
+	font-size: 4rem;
+	color: #8e8e93;
+	text-decoration: none;
+}
+footer a i{
+	margin-top: 1.5rem;
+	text-align: center;
+}
+footer a div span{
+	font-size: 2.8rem;
+}

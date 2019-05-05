@@ -1,0 +1,77 @@
+.banner{
+	width: 100%;
+	min-width: 1100px;
+	height: 400px;
+	background: url(https://haitao.nosdn1.127.net/XgigdNZkiapeJ4blIMG20181124_134608T1811241346_1920_409.png?imageView&thumbnail=2400x511&quality=95) no-repeat;
+	background-position: center;
+	background-size: auto 400px;
+}
+h2{
+	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	background: #a3d0f1;
+}
+.hot{
+	background: #a3d0f1;
+	padding: 0 2px;
+	justify-content: space-around;
+}
+.hot1{
+	width: 194px;
+	height: 278px;
+	font-size: 12px;
+	background: #fff url(../img/f0cf93e1e8584acdb80f5128f0fb40e21536584110281jlwai7cm11652.jpg) no-repeat;
+	background-size: 194px;
+	margin-bottom: 6px;
+	border: 1px solid #a3d0f1;
+}
+.hot1:hover{
+	border: 1px solid #e31436;
+}
+.hot1 p:nth-child(1){
+	width: 24px;
+	height: 20px;
+	padding: 0 3px;
+	background: #ff8385;
+	color: #fff;
+	line-height: 20px;
+}
+.hot1 p:nth-child(2){
+	height: 15px;
+	width: 95px;
+	padding: 0 2px;
+	border:1px solid #e31436;
+	color: #e31436;
+	border-radius: 3px;
+	line-height: 15px;
+	margin: 155px 0 5px 10px;
+}
+.hot1 p:nth-child(3){
+	color: #000;
+	font-weight: 600;
+	font-size: 14px;
+}
+.hot1 p:nth-child(4){
+	color: #a6a6a6;
+	margin: 5px;
+}
+.hot1 .money{
+	margin-left: 8px;
+	color: #e31436;
+}
+.hot1 .money b{
+	font-size: 22px;
+}
+.hot1 .money img{
+	margin-left: 85px;
+	width: 27px;
+}
+.hot1 .money del{
+	color: #a6a6a6;
+}

@@ -1,0 +1,252 @@
+.head {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    .head-white {
+        border: 1px solid transparent;
+    }
+
+    .head-white:hover {
+        border: 1px solid #fff;
+        border-radius: 6px;
+    }
+}
+
+// 用户登录后
+.z-top .login-user {
+    // display: none;
+    position: relative;
+
+    >div {
+        position: relative;
+        display: block;
+    }
+
+    .user-menu {
+        display: none;
+        padding: 10px 0;
+        position: absolute;
+        right: 0px;
+        top: 60px;
+        width: 180px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,.2);
+        background-color: #fff;
+
+        a {
+            display: block;
+            height: 36px;
+            margin: 5px 0;
+            line-height: 36px;
+            text-indent: 1.5rem;
+            color: #323a45;
+
+            &:hover {
+                background-color: #4289db;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+
+        i {
+            margin-right: 10px;
+        }
+
+        li:nth-child(1) {
+            height: 36px;
+            margin: 5px 0;
+            line-height: 36px;
+            text-indent: 1.5rem;
+            color: #a9a9a9;
+        }
+    }
+
+    &:hover .user-menu {
+        display: block;
+    }
+}
+.z-top2{
+    .head-white{
+        // display: none;
+    }
+    .login-user{
+        // display: block;
+    
+    .user{
+        border-bottom: 15px solid transparent;
+        border-top: 5px solid transparent;
+    }
+    }
+    
+}
+.user {
+    position: relative;
+    width: 80px;
+    border-bottom: 20px solid transparent;
+    cursor: pointer;
+
+    .portrait {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    i {
+        color: #e0e6ed;
+        font-size: 12px;
+        position: absolute;
+        right: 5px;
+        top: 15px;
+    }
+}
+
+
+// 头部
+.head a {
+    color: #fff
+}
+
+.head .logo {
+    font-size: 30px;
+    color: #e0e6ed;
+
+    &:hover {
+        color: #e0e6ed;
+    }
+}
+
+.head {
+    background-color: transparent;
+    border: none;
+}
+
+.head .navbar-nav>li>a {
+    color: #e0e6ed;
+    font-size: 14px;
+    font-weight: 700;
+}
+.head .navbar-nav .dengl,.head2 .navbar-nav .dengl {
+    display: none;
+}
+
+.head .navbar-nav>li>a:hover {
+    color: #ccd3dc;
+}
+
+.head .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.head2 .logo {
+    color: #4289dc;
+    font-size: 32px;
+
+    &:hover {
+        color: #4289dc;
+    }
+}
+
+// 字的颜色 默认#e0e6ed
+.head2 .navbar-nav>li>a {
+    color: #273444;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+// 字hover颜色  默认#ccd3dc
+.head2 .navbar-nav>li>a:hover {
+    color: #4289dc;
+}
+
+.z-top2 {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .head2 {
+        background-color: #fff;
+    }
+}
+
+// 底部
+.foot {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #273444;
+    color: #fff;
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .foot-content ul {
+        li {
+            font-size: 14px;
+            padding: 4px 0;
+            color: #8796A8;
+            a{
+                color: #8796A8;
+            }
+            &:nth-child(1) a,&:nth-child(1){
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+
+    }
+
+    .foot-copy {
+        text-align: center;
+        display: none;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .foot {
+        padding-top: 0;
+        padding-bottom: 0px;
+        .foot-content {
+            display: none;
+        }
+
+        .foot-copy {
+            display: block;
+            position: relative;
+            text-align: left;
+            span:nth-child(1) {
+                font-size: 22px;
+            }
+
+            span:nth-child(2) {
+                position: absolute;
+                right: 0;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .head .navbar-collapse {
+        background: #2d3237;
+    }
+
+    .z-top .login-user{
+        display: none;
+    }
+    .head .navbar-nav .dengl,.head2 .navbar-nav .dengl{
+        display: block;
+    }
+}
